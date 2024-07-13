@@ -347,17 +347,35 @@ function openWindow(windowNumber) {
                     
                     
                     <p style="position: absolute; top: 601px; left: 110px; color:#000000; font-size: 12px; font-weight: normal;line-height: 1.65;">
-                    Check your visa details in VEVO: www.homeaffairs.gov.au/vevo
+                    Check your visa details in VEVO: 
+                    <span style="text-decoration: underline;">
+                    www.homeaffairs.gov.au/vevo
+                    </span>
+                    
                     <br>
-                    Update your details in ImmiAccount: www.homeaffairs.gov.au/immiaccount
+                    Update your details in ImmiAccount: 
+                    <span style="text-decoration: underline;">
+                    www.homeaffairs.gov.au/immiaccount
+                    </span>
+                    
                     <br>
-                    Learn about family safety: www.dss.gov.au/family-safety-pack
+                    Learn about family safety: 
+                    <span style="text-decoration: underline;">
+                    www.dss.gov.au/family-safety-pack
+                    </span>
                     <br>
                     Update your details (including passport or if you have a baby):
+                    
                     <br>
+                    <span style="text-decoration: underline;">
                     immi.homeaffairs.gov.au/change-in-situation
+                    </span>
+                    
                     <br>
-                    More information: www.homeaffairs.gov.au
+                    More information: 
+                    <span style="text-decoration: underline;">
+                    www.homeaffairs.gov.au
+                    </span>
                     </p> 
                     
                     <p style="position: absolute; top: 738px; left: 80px; color:#000000; font-size: 12px; font-weight: normal;line-height: 1.1;">
