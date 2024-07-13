@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>วีซ่าผ่าน</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>วีซ่าผ่าน</h1>
+        <form id="inputForm">
+            <label for="Name">Name (ชื่อ-นามสกุล)</label>
+            <input type="text" id="Name" name="Name" required><br>
+            <label for="Dateofgrant">Date of grant ( วันที่รับ )</label>
+            <input type="text" id="Dateofgrant" name="Dateofgrant" required><br>
+            <label for="Mustnotarriveafter">Must not arrive after (วันหมดอายุ)</label>
+            <input type="text" id="Mustnotarriveafter" name="Mustnotarriveafter" required><br>
+            <label for="Dateofbirth">Date of birth ( วัน/เดือน/ปี )</label>
+            <input type="text" id="Dateofbirth" name="Dateofbirth" required><br>
+            <label for="Visagrantnumber">Visa grant number ( หมายเลขวีซ่า )</label>
+            <input type="text" id="Visagrantnumber" name="Visagrantnumber" required><br>
+            <label for="passportnumber">passport number (เลขหนังสือเดินทาง)</label>
+            <input type="text" id="passportnumber" name="passportnumber" required><br>
+            <label for="country">ประเทศ</label>
+            <input type="text" id="country" name="country" value="THAILAND"required><br>
+            <label for="ApplicationID">Application ID</label>
+            <input type="text" id="ApplicationID" name="ApplicationID" required><br>
+            <label for="Transactionreferencenumber ">Transaction reference number </label>
+            <input type="text" id="Transactionreferencenumber" name="Transactionreferencenumber" required><br>
+            <label for="PositionNumber">Position Number ( หมายเลขตำแหน่ง )</label>
+            <input type="text" id="PositionNumber" name="PositionNumber" required><br>
+            <button type="button" onclick="openWindow(1)">แสดงหน้า 1</button>
+            <button type="button" onclick="openWindow(2)">แสดงหน้า 2</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
