@@ -1,6 +1,6 @@
 function getInputValues() {
     return {
-        Name: document.getElementById('Name').value|| "-",
+        Clientname: document.getElementById('Clientname').value|| "-",
         Dateofgrant: document.getElementById('Dateofgrant').value|| "-",
         Mustnotarriveafter: document.getElementById('Mustnotarriveafter').value|| "-",
         Dateofbirth: document.getElementById('Dateofbirth').value|| "-",
@@ -99,7 +99,7 @@ function openWindow(windowNumber) {
                     }
                 </style>
                     <p style="position: absolute; top: 145px; left: 80px; color:#000000; font-size: 12px; font-weight: normal;">
-                    Dear ${inputValues.Name}
+                    Dear ${inputValues.Clientname}
                     </p>     
                     
                     <p style="position: absolute; top: 175px; left: 80px; color:#000000; font-size: 12px; font-weight: normal;">
@@ -163,7 +163,7 @@ function openWindow(windowNumber) {
                     </p>     
                     
                     <p style="position: absolute; top: 540px; left: 300px; color:#000000; font-size: 13px; font-weight: normal;letter-spacing: -0.3px;line-height: 1.5;">
-                    ${inputValues.Name}<br>
+                    ${inputValues.Clientname}<br>
                     ${inputValues.Dateofbirth}<br>
                     Temporary Skill Shortage Visa (Subclass 482)<br>
                     Medium-Term<br>
@@ -366,7 +366,7 @@ function openWindow(windowNumber) {
                     
                     
                     
-                <p style="position: absolute; top: 775px; left: 80px; color:#000000; font-size: 12px; font-weight: normal;">${inputValues.Name}</p>
+                <p style="position: absolute; top: 775px; left: 80px; color:#000000; font-size: 12px; font-weight: normal;">${inputValues.Clientname}</p>
                 <p style="position: absolute; top: 792px; left: 80px; color:#000000; font-size: 12px; font-weight: normal;">Position Number: ${inputValues.PositionNumber}</p>
                 <p style="position: absolute; top: 807px; left: 80px; color:#000000; font-size: 12px; font-weight: normal;">Department of Home Affairs</p>               
                 <p style="position: absolute; top: 840px; left: 80px; color:#000000; font-size: 12px; font-weight: normal;">${inputValues.Dateofgrant}</p>
